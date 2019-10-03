@@ -2,13 +2,13 @@
     text-decoration: none;
     list-style: none;
     font-family: brandon-grotesque, sans-serif;
-    
+    scroll-behavior: smooth;
 }
 
 
 html {
     overflow: hidden;
-    scroll-behavior: smooth;
+    
 }
 body {
     margin: 0;
