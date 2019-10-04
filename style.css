@@ -439,3 +439,23 @@ ul{
     
 }
 }
+
+@media screen and (max-width:500px){
+    
+    .parallax-wrapper::before {
+         background-image: url("bg-smallscreen.jpg");
+        background-repeat: no-repeat;
+        background-size: 500px 500px;
+    
+}
+}
+
+@media screen and (max-width:376px){
+    
+    .parallax-wrapper::before {
+         background-image: url("bg-smallscreen.jpg");
+        background-repeat: no-repeat;
+        background-size: 376px 376px;
+    
+}
+}
