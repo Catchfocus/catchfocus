@@ -450,12 +450,12 @@ ul{
 }
 }
 
-@media screen and (max-width:376px){
+@media screen and (max-width:375px){
     
     .parallax-wrapper::before {
          background-image: url("bg-smallscreen.jpg");
         background-repeat: no-repeat;
-        background-size: 350px 350px;
+        background-size: 375px 375px;
     
 }
 }
