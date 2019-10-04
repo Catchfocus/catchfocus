@@ -1,7 +1,16 @@
+@font-face{
+    font-family: Brandongrotesque;
+    src: url(Brandon_reg.otf);
+}
+
+
+
 *{
     text-decoration: none;
     list-style: none;
-    font-family: brandon-grotesque, sans-serif;
+    font-family: Brandongrotesque ,'Josefin Sans', sans-serif;
+    font-weight: 100;
+    font-style: normal;
     scroll-behavior: smooth;
 }
 
@@ -13,7 +22,6 @@ html {
 body {
     margin: 0;
     font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #ffffff;
     height: 100vh;
     perspective: 1px;
@@ -35,6 +43,8 @@ body {
     top:0;
     left:0;
     background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
     position: absolute;
     z-index: -1;
     transform:translateZ(-1px) scale(2);
@@ -64,10 +74,13 @@ h1{
     text-align: center;
     margin-top: 50px;
    
- 
-   
 }
-
+.text-color-black{
+    color:black;
+}
+.text-color-white{
+    color:white;
+}
 
 p{
     color: black;
@@ -129,7 +142,6 @@ p{
     max-width: 320px;
     box-sizing: border-box;
     
-    
 }
 
 .table{
@@ -139,6 +151,8 @@ p{
     position: relative;
     overflow: hidden;
     box-shadow: 0 0 10px #00000070;
+    
+
     
     
 }
@@ -151,6 +165,7 @@ p{
 .table ul{
     margin:0;
     padding:0;
+    
 }
 
 .table ul li{
@@ -171,7 +186,10 @@ p{
     border-radius: 40px;
     font-size: 1.5rem;
     transition: 0.5s linear;
+    margin-top: 20px;
 }
+
+
 
 .table a:hover{
     background: #2c3e50;
@@ -190,10 +208,234 @@ p{
     right: -40px;
 }
 
+.bronze-pack{
+    color: #cd7f32;
+}
+
+.silver-pack{
+    color: #bfc1c2;
+}
+
+.gold-pack{
+    color: #ffd700;
+}
+.platina-pack{
+    color:#bdbcba;
+}
+
+.package{
+    font-size: 1.2rem;
+}
+
+
+/* Progress Bars */
+
+#progress-ps {
+    background: #333;
+    border-radius: 13px;
+    height: 20px;
+    width: 300px;
+    padding: 3px;
+}
+
+#progress-ps:after {
+    content: '';
+    display: block;
+    background: orange;
+    width: 60%;
+    height: 100%;
+    border-radius: 9px;
+}
+#progress-lr {
+    background: #333;
+    border-radius: 13px;
+    height: 20px;
+    width: 300px;
+    padding: 3px;
+}
+
+#progress-lr:after {
+    content: '';
+    display: block;
+    background: orange;
+    width: 89%;
+    height: 100%;
+    border-radius: 9px;
+}
+
+#progress-ai {
+    background: #333;
+    border-radius: 13px;
+    height: 20px;
+    width: 300px;
+    padding: 3px;
+}
+
+#progress-ai:after {
+    content: '';
+    display: block;
+    background: orange;
+    width: 30%;
+    height: 100%;
+    border-radius: 9px;
+}
+
+#progress-cpp {
+    background: #333;
+    border-radius: 13px;
+    height: 20px;
+    width: 300px;
+    padding: 3px;
+}
+
+#progress-cpp:after {
+    content: '';
+    display: block;
+    background: orange;
+    width: 36%;
+    height: 100%;
+    border-radius: 9px;
+}
+
+#progress-java {
+    background: #333;
+    border-radius: 13px;
+    height: 20px;
+    width: 300px;
+    padding: 3px;
+}
+
+#progress-java:after {
+    content: '';
+    display: block;
+    background: orange;
+    width: 10%;
+    height: 100%;
+    border-radius: 9px;
+}
+
+#progress-html {
+    background: #333;
+    border-radius: 13px;
+    height: 20px;
+    width: 300px;
+    padding: 3px;
+}
+
+#progress-html:after {
+    content: '';
+    display: block;
+    background: orange;
+    width: 60%;
+    height: 100%;
+    border-radius: 9px;
+}
+
+#progress-css {
+    background: #333;
+    border-radius: 13px;
+    height: 20px;
+    width: 300px;
+    padding: 3px;
+}
+
+#progress-css:after {
+    content: '';
+    display: block;
+    background: orange;
+    width: 50%;
+    height: 100%;
+    border-radius: 9px;
+}
+
+.dev-ides{
+    text-align: left;
+    top:50%;
+    left:50%
+}
+
+.ide {
+    text-align: left;
+    top:50%;
+    left:50%;
+    margin: 4px 0;
+}
+
+.citation{
+    text-align: center;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.footer{
+    background-color:  #a1a1a1;
+    text-align: center;
+}
+
+.contacts{
+    display: block;
+    box-shadow:0 0 10px #00000070; 
+}
+
+.google-map{
+    flex: 50%;
+    margin-left:0px;
+    
+    
+}
+
+.contact-list{
+    flex: 50%;
+    text-align: center;
+    display: inline-block;
+ 
+    
+    
+}
+
+
+#contact{
+    
+}
+
+ul{
+    margin:0px;
+    padding:0px;
+    border:0px;
+    margin:auto;
+}
+
+.center {
+    
+  
+}
+
+.copyright{
+        color:#bdbdbd;
+        background-color: #696969;
+        box-shadow:0 0 10px #00000070; 
+}
 
 
 @media screen and (max-width:980px){
     .col{
         flex:100%;
     }
+}
+
+@media screen and (max-width:1300px){
+    .col{
+        flex:100%;
+        
+    }
+}
+
+@media screen and (max-width:650px){
+    
+    .parallax-wrapper::before {
+         background-image: url("bg-smallscreen.jpg");
+        background-repeat: no-repeat;
+        background-size: 640px 640px;
+    
+}
 }
