@@ -455,7 +455,7 @@ ul{
     .parallax-wrapper::before {
          background-image: url("bg-smallscreen.jpg");
         background-repeat: no-repeat;
-        background-size: 150px 150px;
+        background-size: 350px 350px;
     
 }
 }
