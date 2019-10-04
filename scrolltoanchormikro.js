@@ -9,7 +9,7 @@
 	function scrollToAnchorInit() {
 		//scroll to anchor on load:
 		if (location.hash.length)
-			scrolltoAnchor()
+			scrolltoAnchor();
 		//scroll to anchor when hash changes
 		window.addEventListener('hashchange', function (e) {
 			scrolltoAnchor();
