@@ -29,6 +29,8 @@ body {
     overflow-x:hidden;
     overflow-y:auto;
 }
+
+
 .parallax-wrapper {
     width: 100vw;
     height:100vh;
@@ -51,8 +53,8 @@ body {
 }
 .regular-wrapper {
     width: 100vw;
-    height:100vh;
-    padding-top:20vh;
+    height:auto;
+    padding-top:0;;
     background-color: #ffffff;
     z-index: 2;
     position: relative;
@@ -365,12 +367,22 @@ p{
     text-align: center;
     font-size: 1rem;
     font-style: italic;
+    
 }
 
+
 .footer{
-    background-color:  #a1a1a1;
     text-align: center;
-    
+    font-size: 0.6em;
+    color:white;
+    background-color: #3b3b3b;
+    box-shadow:0 0 10px #00000070; 
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    padding:1rem;
+    z-index: 2;
 }
 
 .contacts{
@@ -394,28 +406,16 @@ p{
     
 }
 
-
-#contact{
-    
+div.avatar-img img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width:200px;
+    height: auto;
 }
 
-ul{
-    margin:0px;
-    padding:0px;
-    border:0px;
-    margin:auto;
-}
 
-.center {
-    
-  
-}
-
-.copyright{
-        color:#bdbdbd;
-        background-color: #696969;
-        box-shadow:0 0 10px #00000070; 
-}
 
 
 @media screen and (max-width:980px){
